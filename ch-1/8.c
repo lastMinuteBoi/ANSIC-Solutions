@@ -11,6 +11,7 @@
 int main() {
     int a, b, c;
     float x;
+    printf("Enter the 3 values: ");
     scanf("%d %d %d", &a, &b, &c);
     if((b-c) != 0) {
         // Float is explicitly stated before (b-c) to make its value a floating point since b,c is int type and x is floating type. Remember a floating type variable in any expression will make the whole exp floating type.
