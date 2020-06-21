@@ -2,6 +2,8 @@
 
 // 1 + 1/2 + 1/3 + ... + 1/n
 
+// The value of n should be given interactively through the terminal
+
 #include <stdio.h>
 int main() {
     int n;
